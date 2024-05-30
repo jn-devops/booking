@@ -2,9 +2,9 @@
 
 namespace RLI\Booking;
 
+use RLI\Booking\Commands\BookingCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use RLI\Booking\Commands\BookingCommand;
 
 class BookingServiceProvider extends PackageServiceProvider
 {
